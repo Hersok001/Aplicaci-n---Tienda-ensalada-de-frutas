@@ -1,0 +1,47 @@
+
+{% extends "Web/base.html" %}
+{% load static %}
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'Web/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Ubicados en la Carrera 555 #55-05</span>
+            <br>
+            <span class="section-heading-lower">¡Frutería y heladería</span>
+          </h2>
+            <br>
+          <p class="mb-3">Sabor unico e inigualable.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">ENSALADA DE VOLADA</span>
+                <span class="section-heading-lower">Relación calidad precio</span>
+              </h2>
+              <p class="mb-0">Nuestra misión es un manifiesto de amor, dedicación y tradición. Alimentamos emociones y creemos en que cada bocado puede ser una experiencia increíble en el paladar,
+                 rescatando productos autóctonos y llevando en cada producto el sabor de hogar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
+    
